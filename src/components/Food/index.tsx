@@ -3,7 +3,7 @@ import { FiEdit3, FiTrash } from 'react-icons/fi';
 
 import { Container } from './styles';
 import api from '../../services/api';
-import { Food } from '../../interfaces';
+import { Food } from '../../interfaces/food';
 
 interface FoodCardProps {
   food: Food;
