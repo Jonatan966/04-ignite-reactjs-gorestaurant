@@ -37,6 +37,12 @@
       "last 1 safari version"
     ]
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "devDependencies": {
     "@types/react": "^17.0.34",
     "@types/react-modal": "^3.13.1",
