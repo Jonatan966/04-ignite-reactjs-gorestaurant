@@ -12,7 +12,7 @@ import { IconType } from 'react-icons';
 import { Container } from './styles';
 
 interface InputProps extends HTMLAttributes<HTMLInputElement> {
-  icon: IconType;
+  icon?: IconType;
   name: string;
 }
 
